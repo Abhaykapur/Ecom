@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 10px 30px;
+    color: white;
+    >h1{
+        font-size: 25px;
+        text-transform: uppercase;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    >div{
+        height: 100%;
+        display: flex;
+        >ul{
+            display: flex;
+            >a {
+                padding: 10px;
+                text-decoration: none;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+
+        }
+    }
+
+}
